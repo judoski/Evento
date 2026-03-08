@@ -11,7 +11,7 @@ export default function SearchForm() {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
-        const query = searchText.trim().toLowerCase();
+        const query = searchText.trim();
         if (!query) return;
 
         router.push(`/events/${query}`);
