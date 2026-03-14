@@ -1,3 +1,4 @@
+import { cn } from '@/lib/utils';
 import { twMerge } from 'tailwind-merge';
 
 interface Props {
@@ -8,7 +9,7 @@ interface Props {
 export default function H1({ children, className }: Props) {
     return (
         <h1
-            className={twMerge(
+            className={cn(
                 'font-bold text-3xl lg:text-6xl tracking-tight',
                 className
             )}
