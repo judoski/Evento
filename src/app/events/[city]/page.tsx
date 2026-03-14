@@ -20,7 +20,6 @@ export default async function EventsPage({ params }: Props) {
     );
 
     const events: TEvents[] = await response.json();
-    console.log(events);
 
     return (
         <main className='flex flex-col items-center px-[20px] py-24 min-h-[110vh]'>
