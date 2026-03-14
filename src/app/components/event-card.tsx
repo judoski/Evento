@@ -22,7 +22,7 @@ export default function EventCard({ event }: Props) {
                     alt={event.name}
                     width={500}
                     height={200}
-                    className='h-[60%] object-fit'
+                    className='h-[60%] object-cover'
                 />
                 <div className='flex flex-col items-center justify-center flex-1'>
                     <h2 className='text-2xl font-semibold'>{event.name}</h2>
