@@ -24,7 +24,7 @@ export default async function EventsPage({ params }: Props) {
 
     return (
         <main className='flex flex-col items-center px-[20px] py-24 min-h-[110vh]'>
-            <H1>
+            <H1 className='mb-28'>
                 {city === 'all' && 'all Events'}
 
                 {city !== 'all' &&
