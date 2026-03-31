@@ -367,7 +367,9 @@ Paginated event list
 -   Favorites system
 -   Event categories
 -   Admin dashboard
+-   API routes
 -   Unit testing
+-   E2E testing
 -   Analytics
 
 ---
