@@ -43,3 +43,5 @@ export const getEvent = unstable_cache(async (slug: string) => {
 
     return event;
 });
+
+console.log(process.env.DATABASE_URL);

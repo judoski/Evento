@@ -11,7 +11,7 @@ The project demonstrates production‑ready patterns using:
 -   Prisma ORM
 -   Tailwind CSS
 -   Framer Motion animations
--   Suspense & Streaming
+-   Suspense & Streamin
 -   Caching with `unstable_cache`
 -   Zod validation
 -   Middleware routing
